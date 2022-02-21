@@ -1,5 +1,5 @@
 # Archives-Java [![](https://jitpack.io/v/Osiris-Team/Archives-Java.svg)](https://jitpack.io/#Osiris-Team/Archives-Java)
-High level Java API for handling archives (.tar, .tar.gz and .tar.xz).  with the aim of making it easy to work with files. 
+High level Java API for handling archives (.tar, .tar.gz and .tar.xz).
 
 ```java
 Tar tar = new Tar("file-name");
