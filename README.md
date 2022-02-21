@@ -6,7 +6,8 @@ Tar tar = new Tar("file-name");
 TarGz targz = new TarGz("file-name");
 TarXz tarxz = new TarXz("file-name");
 
-tar.addFile(fileOrFolder); // Works the same for TarGz and TarXz
+tar.addFile(fileOrDir); // Works the same for TarGz and TarXz.
+tar.createInDir(dir); // Creates file-name.tar in the specified directory.
 ```
 Note that this is still in early development so the example might have changed and some things are not working yet.
 
